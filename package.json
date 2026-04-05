@@ -2,6 +2,10 @@
   "name": "finance-dashboard",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
+
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -27,3 +31,4 @@
     "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   }
 }
+
