@@ -21,12 +21,10 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Cell,
 } from 'recharts';
 import useStore from '../store/useStore';
 import { computeMonthlyData, computeCategorySpending } from '../data/mockData';
 import { formatCurrency, formatChange } from '../utils/helpers';
-import { motion as m } from 'framer-motion';
 import clsx from 'clsx';
 
 // ─── Tooltip for bar chart ────────────────────────────────────────────────────

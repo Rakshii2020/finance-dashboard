@@ -6,7 +6,7 @@ import useStore from '../store/useStore';
 import StatCard from '../components/ui/StatCard';
 import BalanceTrendChart from '../components/charts/BalanceTrendChart';
 import CategoryDonutChart from '../components/charts/CategoryDonutChart';
-import { formatCurrency, formatDate, getRelativeDate } from '../utils/helpers';
+import { formatCurrency,  getRelativeDate } from '../utils/helpers';
 import { getCategoryById } from '../data/mockData';
 import clsx from 'clsx';
 
